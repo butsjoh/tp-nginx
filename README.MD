@@ -52,4 +52,6 @@ dpkg -r nginx-full_1.10.3-1+deb9u1~tp_amd64.deb
 
 This should prevent updating the package automatically. It is up to you to make sure that it is up to date security wise ...
 
+```
 sudo apt-mark hold nginx-full
+```
