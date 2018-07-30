@@ -33,19 +33,19 @@ Just run the above dpkg --install again but then with update packages you build 
 Watch out, below will only destroy the package a not the configuration files. If you also want to remove the config files use -P instead.
 
 ```
-dpkg -r nginx-common_1.10.3-1+deb9u1~tp_all.deb
-dpkg -r libnginx-mod-http-upload-module_1.10.3-1+deb9u1~tp_amd64.deb
-dpkg -r libnginx-mod-http-auth-pam_1.10.3-1+deb9u1~tp_amd64.deb
-dpkg -r libnginx-mod-http-dav-ext_1.10.3-1+deb9u1~tp_amd64.deb
-dpkg -r libnginx-mod-http-echo_1.10.3-1+deb9u1~tp_amd64.deb
-dpkg -r libnginx-mod-http-geoip_1.10.3-1+deb9u1~tp_amd64.deb
-dpkg -r libnginx-mod-http-image-filter_1.10.3-1+deb9u1~tp_amd64.deb
-dpkg -r libnginx-mod-http-subs-filter_1.10.3-1+deb9u1~tp_amd64.deb
-dpkg -r libnginx-mod-http-upstream-fair_1.10.3-1+deb9u1~tp_amd64.deb
-dpkg -r libnginx-mod-http-xslt-filter_1.10.3-1+deb9u1~tp_amd64.deb
-dpkg -r libnginx-mod-mail_1.10.3-1+deb9u1~tp_amd64.deb
-dpkg -r libnginx-mod-stream_1.10.3-1+deb9u1~tp_amd64.deb
-dpkg -r nginx-full_1.10.3-1+deb9u1~tp_amd64.deb
+dpkg -r nginx-full
+dpkg -r libnginx-mod-http-auth-pam
+dpkg -r libnginx-mod-http-dav-ext
+dpkg -r libnginx-mod-http-echo
+dpkg -r libnginx-mod-http-geoip
+dpkg -r libnginx-mod-http-image-filter
+dpkg -r libnginx-mod-http-subs-filter
+dpkg -r libnginx-mod-http-upstream-fair
+dpkg -r libnginx-mod-http-xslt-filter
+dpkg -r libnginx-mod-mail
+dpkg -r libnginx-mod-stream
+dpkg -r libnginx-mod-http-upload-module
+dpkg -r nginx-common
 ```
 
 # Prevent dist-upgrade from updating the packages
